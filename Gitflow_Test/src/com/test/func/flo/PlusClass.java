@@ -3,8 +3,8 @@ package com.test.func.flo;
 public class PlusClass {
 
 	public float addFloat(float a, float b) {
-		// develop 브랜치에 누군가 commit한 소스
-		System.out.println("debugging을 위한 로그 추가 ");
+		//release 에 입력하기 전에 주석 추가
+		System.out.println("add float method 실행!");
 		return a + b;
 	}
 }
