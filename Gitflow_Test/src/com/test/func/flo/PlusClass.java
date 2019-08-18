@@ -4,7 +4,7 @@ public class PlusClass {
 
 	public float addFloat(float a, float b) {
 		//release 에 입력하기 전에 주석 추가
-		
+		System.out.println("add float method 실행!");
 		return a + b;
 	}
 }
